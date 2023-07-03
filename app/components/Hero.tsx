@@ -5,8 +5,8 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-	{ name: "Team", href: "#" },
-	{ name: "Valeurs", href: "#" },
+	{ name: "Team", href: "#team" },
+	{ name: "Engagements", href: "#" },
 	{ name: "Clients", href: "#" },
 	{ name: "Contact", href: "#" },
 ];
@@ -138,7 +138,7 @@ export default function Hero() {
 						className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
 						src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80"
                         width={1587}
-                        height={2000}
+                        height={2379}
 						alt=""
 					/>
 				</div>
