@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="fr" className={exo.variable}>
-			<body className={inter.className}>{children}</body>
+			<body className={`bg-slate-50 ${inter.className}`}>{children}</body>
 		</html>
 	);
 }
