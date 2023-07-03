@@ -59,15 +59,14 @@ export default function Hero() {
 					onClose={setMobileMenuOpen}
 				>
 					<div className="fixed inset-0 z-50" />
-					<Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+					<Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-slate-50 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
 						<div className="flex items-center justify-between">
-							<a href="#" className="-m-1.5 p-1.5">
-								<span className="sr-only">Your Company</span>
-								<img
-									className="h-8 w-auto"
-									src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-									alt=""
-								/>
+							<a
+								href="#"
+								className="-m-1.5 p-1.5 font-exo font-black text-2xl text-cyan-800"
+							>
+								<span className="sr-only">Ethic Team</span>
+								<p>Ethic Team</p>
 							</a>
 							<button
 								type="button"
@@ -109,35 +108,25 @@ export default function Hero() {
 							<polygon points="0,0 90,0 50,100 0,100" />
 						</svg>
 
-						<div className="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
+						<div className="relative px-6 py-24 sm:py-32 lg:px-8 lg:py-40 lg:pr-0">
 							<div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
 								<h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
 									Déployez vos projets Web en toute Conscience
 								</h1>
 								<p className="mt-6 text-lg leading-8 text-gray-600">
-									Construire l&apos;avenir avec une conscience claire et une
-									expertise affutée. À Ethic Team, nous puisons dans notre
-									maîtrise technologique et notre pratique de la pleine
-									conscience pour transformer vos idées en réalité digitale.
-									Nous nous spécialisons dans le développement de projets de
-									startups de moyenne à grande envergure, favorisant les
-									initiatives innovantes et porteuses de changement positif pour
-									la société. Chaque projet est pour nous une occasion unique de
-									créer une technologie qui a du sens, vous offrant un soutien
-									attentif et expert tout au long de votre voyage numérique.
+									Chez Ethic Team, nous transformons vos idées en réalité
+									digitale grâce à notre expertise technique et notre approche
+									consciente. Spécialisés dans les projets de startups
+									ambitieuses, nous privilégions les initiatives innovantes et
+									socialement positives. Notre mission : créer avec vous une
+									technologie qui a du sens.
 								</p>
 								<div className="mt-10 flex items-center gap-x-6">
 									<a
 										href="#"
 										className="rounded-md bg-amber-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-amber500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-700"
 									>
-										Get started
-									</a>
-									<a
-										href="#"
-										className="text-sm font-semibold leading-6 text-gray-900"
-									>
-										Learn more <span aria-hidden="true">→</span>
+										Nous contacter
 									</a>
 								</div>
 							</div>
@@ -145,9 +134,11 @@ export default function Hero() {
 					</div>
 				</div>
 				<div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-					<img
+					<Image
 						className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
 						src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80"
+                        width={1587}
+                        height={2000}
 						alt=""
 					/>
 				</div>
