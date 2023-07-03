@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Team from "./components/Team";
 import Engagement from "./components/Engagement";
 import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 export default function Home() {
 	return (
