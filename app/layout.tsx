@@ -1,4 +1,5 @@
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 import "./globals.css";
 import { Inter, Exo_2 } from "next/font/google";
 
@@ -24,6 +25,7 @@ export default function RootLayout({
 	return (
 		<html lang="fr" className={exo.variable}>
 			<body className={`bg-slate-50 ${inter.className}`}>
+        <Header/>
 				{children}
 				<Footer />
 			</body>

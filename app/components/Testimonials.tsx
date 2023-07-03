@@ -77,7 +77,7 @@ export default function Testimonials() {
 						Nos clients nous recommandent
 					</h2>
 					<p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-						Nous avons eu le plaisir de travailler avec une multitude de
+						Nous avons eu la chance de travailler avec une multitude de
 						personnes extraordinaires
 					</p>
 				</div>
