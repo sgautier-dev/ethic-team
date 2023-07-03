@@ -1,8 +1,10 @@
 import {
 	ChatBubbleOvalLeftEllipsisIcon,
 	HeartIcon,
-	PencilSquareIcon,
-	TrashIcon,
+  HandThumbUpIcon,
+	UsersIcon,
+	RocketLaunchIcon,
+  TrophyIcon
 } from "@heroicons/react/24/outline";
 
 const features = [
@@ -10,13 +12,13 @@ const features = [
 		name: "Expertise technique",
 		description:
 			"Nous nous engageons à apporter notre expertise de pointe, toujours actualisée avec les technologies les plus récentes.",
-		icon: TrashIcon,
+		icon: RocketLaunchIcon,
 	},
 	{
 		name: "Écoute et compréhension",
 		description:
 			"Nous nous engageons à comprendre votre vision et vos objectifs, et à travailler en étroite collaboration avec vous pour les réaliser.",
-		icon: PencilSquareIcon,
+		icon: UsersIcon,
 	},
 	{
 		name: "Transparence",
@@ -28,19 +30,19 @@ const features = [
 		name: "Qualité",
 		description:
 			"Nous nous engageons à livrer un travail de haute qualité, en veillant à ce que chaque aspect de votre projet soit testé, stable et performant.",
-		icon: HeartIcon,
+		icon: HandThumbUpIcon,
 	},
 	{
 		name: "Éthique",
 		description:
-			"En tant qu&apos;Ethic Team, nous nous engageons à adopter une approche éthique dans tout ce que nous faisons. Cela signifie respecter les délais, les budgets et les attentes de nos clients, tout en gardant un comportement responsable et respectueux.",
+			"Nous nous engageons à adopter une approche éthique dans tout ce que nous faisons. Cela signifie respecter les délais, les budgets et les attentes de nos clients, tout en gardant un comportement responsable et respectueux.",
 		icon: HeartIcon,
 	},
 	{
 		name: "Innovation",
 		description:
 			"Nous nous engageons à vous aider à rester à la pointe de votre secteur. Nous explorons continuellement de nouvelles méthodes et technologies pour transformer vos idées en réalités novatrices.",
-		icon: HeartIcon,
+		icon: TrophyIcon,
 	},
 ];
 
