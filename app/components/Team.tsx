@@ -5,14 +5,14 @@ const people = [
 		name: "Sébastien Gautier",
 		role: "Ingénieur FullStack Next.js",
 		imageUrl: "/images/profil_seb_pro.jpg",
-		bio: "Sébastien, ingénieur INSA basé sur l'île de la Réunion, est spécialisé en développement de plateformes web avec Next.js. Autonome, créatif et rigoureux, il est capable de gérer tous les aspects de votre projet. De la proposition de designs à la création de code performant, en passant par les tests jusqu'au déploiement et à la livraison, Sébastien assure un suivi complet et personnalisé. Attentif aux problématiques métiers et soucieux d'établir des relations de confiance avec nos clients, il est en charge du suivi de mission et se positionne comme votre interlocuteur privilégié tout au long de votre projet.",
+		bio: "Sébastien, ingénieur INSA Lyon Informatique basé sur l'île de la Réunion, est spécialisé en développement de plateformes et applis web avec Next.js. Autonome, créatif et rigoureux, il est capable de gérer tous les aspects de votre projet. De la proposition de designs à la création de code performant, en passant par les tests jusqu'au déploiement et à la livraison, Sébastien assure un suivi complet et personnalisé. Attentif aux problématiques métiers et soucieux d'établir des relations de confiance avec nos clients, il est en charge du suivi de mission et se positionne comme votre interlocuteur privilégié tout au long de votre projet.",
 		linkedinUrl: "https://www.linkedin.com/in/sebastien-gautier-55b38382",
 	},
 	{
 		name: "Alexandre Desbiez",
 		role: "Ingénieur FullStack IOT React Native",
 		imageUrl: "/images/AlexProfil.jpg",
-		bio: "Alexandre, ingénieur SUPAERO et expert en développement Full-Stack Backend/Mobile, est notre Tech Leader au sein de l'Ethic Team. Son expertise dans la conception d'infrastructures solides, le développement de bases de données performantes et la réalisation d'interfaces utilisateur intuitives est renforcée par une attention particulière portée à la qualité, la performance et la sécurité. Avec une méthode de travail efficace et une riche expérience entrepreneuriale, Alexandre comprend et répond à vos besoins de manière unique. Il vise à surmonter vos défis techniques et à propulser votre vision vers le succès.",
+		bio: "Alexandre, ingénieur SUPAERO avec plus de 10 ans d'expérience en programmation informatique, est notre Tech Leader expert en développement Full-Stack Backend/Mobile au sein de l'Ethic Team. Son expertise dans la conception d'infrastructures solides, le développement de bases de données performantes et la réalisation d'interfaces utilisateur intuitives est renforcée par une attention particulière portée à la qualité, la performance et la sécurité. Avec une méthode de travail efficace et une riche expérience entrepreneuriale, Alexandre comprend et répond à vos besoins de manière unique. Il vise à surmonter vos défis techniques et à propulser votre vision vers le succès.",
 		linkedinUrl: "https://www.linkedin.com/in/alex-desbiez-7b017589",
 	},
 ];
@@ -26,10 +26,10 @@ export default function Team() {
 						La Team
 					</h2>
 					<p className="mt-6 text-lg leading-8 text-gray-600">
-						Nous sommes une équipe d&apos;ingénieurs dynamique et engagée, unissant passion et
-						expertise pour concevoir des expériences digitales impactantes. En
-						harmonisant compétences techniques et relations humaines, nous
-						concrétisons votre vision.
+						Nous sommes une équipe d&apos;ingénieurs dynamique et engagée,
+						unissant passion et expertise pour concevoir des expériences
+						digitales impactantes. En harmonisant compétences techniques et
+						relations humaines, nous concrétisons votre vision.
 					</p>
 				</div>
 				<ul
@@ -56,7 +56,7 @@ export default function Team() {
 								<li>
 									<a
 										href={person.linkedinUrl}
-                                        target="no_blank"
+										target="no_blank"
 										className="text-gray-400 hover:text-gray-500"
 									>
 										<span className="sr-only">LinkedIn</span>
