@@ -15,6 +15,7 @@ export const metadata = {
 	title: "Ethic Team - Développement Web et Mobile",
 	description:
 		"Ethic Team est une équipe dédiée de développeurs Full-Stack experts. Spécialisés dans le développement de projets web et mobile innovants, nous fournissons des solutions sur-mesure pour startups et entreprises. Notre approche éthique et consciente vous assure un service professionnel et durable.",
+	authors: [{ name: "Sébastien Gautier", url: "https://www.sgautier.dev" }],
 };
 
 export default function RootLayout({
