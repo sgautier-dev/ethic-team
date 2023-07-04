@@ -12,9 +12,9 @@ const exo = Exo_2({
 });
 
 export const metadata = {
-	title: "Ethic Team",
+	title: "Ethic Team - Développement Web et Mobile",
 	description:
-		"développeurs web fullstack, déployez vos projets en toute conscience",
+		"Ethic Team est une équipe dédiée de développeurs Full-Stack experts. Spécialisés dans le développement de projets web et mobile innovants, nous fournissons des solutions sur-mesure pour startups et entreprises. Notre approche éthique et consciente vous assure un service professionnel et durable.",
 };
 
 export default function RootLayout({
@@ -25,7 +25,7 @@ export default function RootLayout({
 	return (
 		<html lang="fr" className={exo.variable}>
 			<body className={`bg-slate-50 ${inter.className}`}>
-        <Header/>
+				<Header />
 				{children}
 				<Footer />
 			</body>
